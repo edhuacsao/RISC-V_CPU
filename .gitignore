@@ -1,0 +1,96 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# General build output
+build/
+out/
+dist/
+target/
+debug/
+release/
+cmake-build-*/
+
+# C/C++ and RISC-V software build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.elf
+*.map
+*.d
+
+# Verilog/SystemVerilog simulation output
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.fst
+*.ghw
+*.wdb
+*.ucdb
+*.shm/
+*.vstf
+*.log
+*.jou
+*.str
+*.pb
+
+# FPGA tool-generated directories and reports
+.Xil/
+.cache/
+.runs/
+.sim/
+.hw/
+/.cache/
+/.settings/
+vivado*.backup*
+*.xpr.bak
+*.rpt
+*.summary
+*.dcp
+*.edf
+*.ngc
+*.bit
+*.bin.bak
+
+# Synthesis/P&R temporary files
+*.lso
+*.mrp
+*.pwr
+*.par
+*.twr
+*.unroutes
+*.xpi
+*.xml.bak
+
+# Generated Verilator/iverilog files
+obj_dir/
+verilator-build/
+iverilog/
+*.vvp
+*.vvp.tmp
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.orig
+
